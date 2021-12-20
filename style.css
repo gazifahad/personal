@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+}
+.first{
+
+    display: inline-block;
+    height: 100vh;
+    width: 100%;
+    background: url("images/header-bg.png") no-repeat left top / cover; /*repeat x-axis y axis / size*/
+   
+}
+.left{
+    display: block;
+    float: left;
+    width:40%;
+   
+    margin:9rem 0px auto 8rem;
+    
+}
+.right{
+    display: block;
+    float: RIGHT;
+    width: 40%;
+    height: auto;
+    margin: 3rem 8rem auto 0px ;
+   
+}
+.first span{
+    color:rgb(243, 88, 88);
+}
+.first a{
+    text-decoration: none;
+    color:white;
+    background-color: crimson;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+.first a:hover{
+    color:cornflowerblue;
+    background-color: cornsilk;
+}
+.right img{
+    height: 10%;
+    width: 80%;
+
+}
+.second{
+    display: inline-block;
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: left top;
+    
+
+}
+.sleft{
+    display: block;
+    float: left;
+    width:40%;
+    margin:1rem 0px auto 8rem;  
+
+}
+.sleft img{
+    width: 80%;
+    height: 80%;
+}
+.sright{
+   
+    display: block;
+    float: right;
+    width: 40%;
+    height: auto;
+    margin: 7rem 8rem auto 0px ;
+    color: rgb(116, 110, 110);
+    line-height: 1.5rem;
+   
+
+}
+.sright a{
+    
+    text-decoration: none;
+    background-color: rgb(230, 66, 101);
+    color: white;
+    font-size: 13px;
+    font-weight: 200;
+    padding: .5rem 1.2rem;
+    border-radius: 5px;
+}
+.sright p{
+    margin-bottom: 2rem;
+}
+.thirdt{
+    width: 100%;
+    height: 100vh;
+   background:url("images/latest-work-bg.png");
+   background: url("images/latest-work-bg.png");
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-position: right;
+   
+    
+}
+.thirdt h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.third{
+    margin: 8rem 10rem auto 10rem;
+    
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    
+}
+.gridt img{
+    height: auto;
+    
+    width:100%;
+}
+.last {
+    width: 100%;
+    text-align: center;
+    
+ 
+ 
+
+}
+.last section{
+   
+    margin-top: 5em;
+    background-image: url("images/footer-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#lastm{
+    height:50px;
+    width:600px;
+    background-color: rgb(226, 51, 110);
+    border-radius: 10px;
+    padding: 30px 30px 50px 30px;
+    color: #ffff;
+    margin: 4em auto auto auto;
+    
+}
+footer{
+    margin: 5em auto auto auto;
+    text-align: center;
+    color: rgb(151, 121, 121);
+}
